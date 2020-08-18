@@ -17,4 +17,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"ffN9":[function(require,module,exports) {
 "use strict";var e=u(require("./components/Header")),r=u(require("./components/Portfolio")),t=u(require("./components/Footer"));require("./scss/app.scss");var o=u(require("./scripts/navbar")),n=u(require("./scripts/showsections"));function u(e){return e&&e.__esModule?e:{default:e}}var c=function(){document.querySelector("#header").innerHTML=(0,e.default)(),document.querySelector("#project-grid").innerHTML=(0,r.default)();for(var o=document.querySelectorAll(".footer-container"),n=0;n<o.length;n++)o[n].innerHTML=(0,t.default)()};c(),(0,o.default)(),(0,n.default)();
 },{"./components/Header":"FRKU","./components/Portfolio":"fFQo","./components/Footer":"oDpv","./scss/app.scss":"G5Xn","./scripts/navbar":"Ibwf","./scripts/showsections":"DTSa"}]},{},["ffN9"], null)
-//# sourceMappingURL=app.4e96a9ce.js.map
+//# sourceMappingURL=app.d97c608a.js.map
